@@ -888,7 +888,8 @@ public class Interface extends javax.swing.JFrame {
         } catch (HeadlessException | SQLException e) {
             JOptionPane.showMessageDialog(null, "Erro ao realizar reserva: " + e.getMessage());
             e.printStackTrace();
-        }        // TODO add your handling code here:
+        }    
+        carregarRelatorioSalasMaisReservadas();// TODO add your handling code here:
     }//GEN-LAST:event_buttonReservaActionPerformed
 
     private void txtMatriculaUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMatriculaUsuarioActionPerformed
